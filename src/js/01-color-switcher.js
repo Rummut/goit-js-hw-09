@@ -10,7 +10,7 @@ function getRandomHexColor() {
 
 
 startBtnEl.addEventListener("click", () => {
-   colorSwitcherId = setInterval(() => { bodyEl.style.backgroundColor = getRandomHexColor() }, 1000)
+    colorSwitcherId = setInterval(() => { bodyEl.style.backgroundColor = getRandomHexColor() }, 1000)
     startBtnEl.setAttribute("disabled", "")
     stopBtnEl.removeAttribute("disabled")
 })
